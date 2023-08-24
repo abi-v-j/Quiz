@@ -1,0 +1,70 @@
+h2{
+  height: 100px;
+}
+.choice-container {
+  width: 400px;
+  display: flex;
+  align-items: center;
+  height: 50px;
+  border: 2px solid #bbb;
+  margin-bottom: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  overflow: hidden;
+  transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.2s ease;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.correct {
+  background-color: #14d614 !important; /* Green background for correct answer */
+}
+
+/* Styling for the choice container when the answer is selected and incorrect */
+.incorrect {
+  background-color: #cc2222 !important; /* Red background for incorrect answer */
+}
+
+.choice-container:hover {
+  background-color: #f0f0f0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transform: translateY(-2px);
+}
+
+.choice-container.selected {
+  background-color: #5546db;
+  color: #fff;
+  border-color: #5546db;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+  transform: translateY(-2px);
+}
+
+.choice-container.selected .choice-prefix {
+  background-color: #5546db;
+}
+
+.choice-container.selected:hover {
+  background-color: #5546db;
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.4);
+  transform: translateY(-4px);
+}
+
+.choice-prefix {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px;
+  font-weight: bold;
+  width: 50px;
+  height: 70px;
+  background-color: #bbb;
+  color: #fff;
+  font-size: 24px;
+  transition: background-color 0.3s ease;
+}
+
+.choice-text {
+  margin: 0;
+  font-size: 20px;
+  font-weight: 700;
+  color: #000;
+}

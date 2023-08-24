@@ -1,0 +1,55 @@
+form {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+  
+    border-radius: 10px;
+   
+  }
+  input {
+    width: 250px;
+    border: 1px solid #ccc;
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+  }
+  
+  input:focus {
+    outline: none;
+    border-color: #4d90fe; /* A more specific border color when focused */
+    box-shadow: 0 0 3px rgba(77, 144, 254, 0.7); /* Add a subtle box shadow when focused */
+  }
+  button {
+    background-color: #9e9ee0;
+    border: none;
+    border-radius: 4px;
+    height: 35px;
+    padding: 8px 15px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #141f7e;
+    color: white;
+  }
+  .lnk {
+    display: inline-block;
+    width: 235px;
+    background-color: #9e9ee0;
+    border: 1px solid #4d90fe;
+    border-radius: 4px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    text-decoration: none;
+    color: #333;
+    padding: 0 15px;
+    transition: background-color 0.3s;
+  }
+  
+  .lnk:hover {
+    background-color: #141f7e;
+    color: white;
+  }
+        

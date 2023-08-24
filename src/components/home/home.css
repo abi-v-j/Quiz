@@ -1,0 +1,48 @@
+/* home.css */
+
+
+.main {
+    max-width: 600px;
+    /* Set a maximum width for the main element */
+    min-width: 400px;
+    padding: 20px;
+    background-color: #fff;
+    /* Change the background color as needed */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    /* Add a subtle box shadow */
+    border-radius: 10px;
+    /* Add rounded corners */
+    text-align: center;
+    justify-content: center;
+    /* Center the content inside the main element */
+}
+
+h1 {
+    margin-bottom: 20px;
+
+}
+
+.btn {
+    display: block;
+    text-align: center;
+    padding: 10px 20px;
+    background-color: #007bff;
+    /* Change the background color as needed */
+    color: #fff;
+    /* Set the text color */
+    text-decoration: none;
+    /* Remove underline */
+    border-radius: 5px;
+    /* Add rounded corners */
+    margin: 10px;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+    /* Change the button background color on hover */
+}
+
+/* Style for the links when visited (optional) */
+.btn:visited {
+    color: #fff;
+}

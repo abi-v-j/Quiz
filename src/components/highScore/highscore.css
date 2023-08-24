@@ -1,0 +1,37 @@
+.card-container {
+    display: grid;
+    justify-content: space-around;
+    align-content: center;
+    gap: 20px;
+    width: 100%;
+    height: 100vh;
+}
+.main{
+    display: flex;
+}
+.button{
+    position: absolute;
+    left: 220px;
+    top: 20px;
+
+}
+
+.lnk {
+    display: inline-block;
+    width: 235px;
+    background-color: #9e9ee0;
+    border: 1px solid #4d90fe;
+    border-radius: 4px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    text-decoration: none;
+    color: #333;
+    padding: 0 15px;
+    transition: background-color 0.3s;
+}
+
+.lnk:hover {
+    background-color: #141f7e;
+    color: white;
+}
